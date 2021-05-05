@@ -1,0 +1,20 @@
+{
+  "name": "node--ding-messenger",
+  "version": "1.0.0",
+  "description": "https://github.com/mdn/samples-server/tree/master/s/webrtc-from-chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papaAndrew/node--ding-messenger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/papaAndrew/node--ding-messenger/issues"
+  },
+  "homepage": "https://github.com/papaAndrew/node--ding-messenger#readme"
+}
