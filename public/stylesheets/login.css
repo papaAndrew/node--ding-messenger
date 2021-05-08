@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+body *{
+  border: 1px solid gray;
+  margin: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+header {
+  height: 10%;
+  background-color: lightskyblue;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+section {
+  display:flex;
+  height: 85%;
+  padding: 2%;
+  justify-content:center;
+  flex-direction:column;
+}
+
+section div {
+  display:flex;
+  justify-content:center;
+  margin:5px; 
+  font-size: larger;
+}
+
+section .login-middle-label {
+  width: 200px  ;
+  justify-content: left;
+}
+
+.credentials {
+  width: 30%;
+  margin: 20px;
+}
+
+footer {
+  height: 5%;
+  background-color: cadetblue;
+  text-align: center;
+  flex-wrap: wrap;
+}
