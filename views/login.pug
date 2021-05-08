@@ -1,0 +1,23 @@
+html(lang="en")
+  head
+    title Ding messenger - Sign In
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="./stylesheets/login.css")
+  body
+    main(class="login")
+      header(class="login-header") 
+
+      section(class="login-middle")  
+        div
+          div(class="login-middle-label") Your nickname
+          input(class="login-middle-nickname;credentials")  
+        div
+          div(class="login-middle-label") Password
+          input(class="login-middle-password;credentials")  
+
+      footer(class="login-footer")
+        span(class="login-footer-server-state") Offline
+      
+      script(type="module" src="./public/javascripts/login/index.js") 
