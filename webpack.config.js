@@ -9,12 +9,12 @@ module.exports = {
   },
   entry: {
     index: './src/index.js',
-    print: './src/print.js',
+    login: './src/login.js',
   },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: false,
+    clean: true,
     publicPath: '/',
   },
   module: {
@@ -46,7 +46,16 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Development',
+      title: 'Index',
+      template: 'src/index.html',
+      filename: 'index.html',
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Login',
+      template: 'src/login.html',
+      filename: 'login.html',
+      chunks: ['login'],
     }),
   ],
 };

@@ -1,9 +1,11 @@
-import './main.css';
+import './login.css';
+//import printMe from './print.js';
+
 
 function component() {
   
   const element = document.createElement('h1');
-  element.innerHTML = "Это страница Индекс"
+  element.innerHTML = "Это страница Логина"
   /*
   const btn = document.createElement('button');
 
@@ -21,5 +23,5 @@ function component() {
   return element;
 }
 
-const header = document.querySelector('.main-header');
+const header = document.querySelector('.login-header');
 header.appendChild(component());
