@@ -1,4 +1,4 @@
-import './main.css';
+import '../styles/board.css';
 
 function component() {
   

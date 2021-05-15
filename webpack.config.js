@@ -8,8 +8,8 @@ module.exports = {
     contentBase: './dist',
   },
   entry: {
-    index: './src/index.js',
-    login: './src/login.js',
+    board: './src/templates/board.js',
+    login: './src/templates/login.js',
   },
   output: {
     filename: '[name].bundle.js',
@@ -47,14 +47,14 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Index',
-      template: 'src/index.html',
-      filename: 'index.html',
+      template: 'src/templates/board.html',
+      filename: 'board/index.html',
       chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
       title: 'Login',
-      template: 'src/login.html',
-      filename: 'login.html',
+      template: 'src/templates/login.html',
+      filename: 'login/index.html',
       chunks: ['login'],
     }),
   ],
